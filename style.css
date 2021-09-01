@@ -146,6 +146,7 @@ footer p {
 
 @media all and (min-width: 480px) {
   header{
+    flex-wrap:wrap;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
@@ -161,6 +162,7 @@ footer p {
   }
   
   form{
+    flex-wrap:wrap;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
